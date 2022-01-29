@@ -11,7 +11,7 @@
         data() {
             return {
                 nome: "Nathálya",
-                profissao: "Programador"
+                profissao: "Programadora"
             }
         }
     }
