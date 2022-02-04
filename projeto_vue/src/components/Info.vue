@@ -45,3 +45,9 @@
         }
     }
 </script>
+
+<style>
+    .paragrafo-pai {
+        color: red;
+    }
+</style>
