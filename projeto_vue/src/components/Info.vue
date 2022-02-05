@@ -23,16 +23,19 @@
 
 <script>
     import Picture from './Picture.vue'
+
     export default {
         name: 'Info',
         components: {
             Picture
         },
+        props: {
+            email: String,
+            esta_trabalhando: Boolean
+        },
         data() {
             return {
-                esta_trabalhando: false,
                 mostrar_email: false,
-                email: 'nath.conta14@gmail.com',
                 meu_link: 'https://google.com',
                 textoBotao: 'Mostrar e-mail',
                 backend_technologies: ['Javascript', 'PHP', 'Python'],
